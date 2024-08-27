@@ -8,20 +8,20 @@ function OpcionesMenu() {
                 
                     <ul className="opciones_menu">
 
-                        <NavLink to="/" className="opcion_menu">
-                            <li >Home</li>
+                        <NavLink to="/" >
+                            <li className="opcion_menu">Home</li>
                         </NavLink>
-                        <NavLink to="/about" className="opcion_menu">
-                            <li >About me</li>
-                        </NavLink>
-
-
-                        <NavLink to="/portfolio" className="opcion_menu">
-                            <li>Portfolio</li>
+                        <NavLink to="/about" >
+                            <li className="opcion_menu" >About me</li>
                         </NavLink>
 
-                        <NavLink to="/contact" className="opcion_menu">
-                            <li>Contact</li>
+
+                        <NavLink to="/portfolio" >
+                            <li className="opcion_menu">Portfolio</li>
+                        </NavLink>
+
+                        <NavLink to="/contact" >
+                            <li className="opcion_menu" >Contact</li>
                         </NavLink>
                         
                     </ul>

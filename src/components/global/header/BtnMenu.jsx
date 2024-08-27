@@ -2,12 +2,32 @@ import { useState } from 'react';
 import bars from '../../../assets/WEBP/bars.webp';
 import close from '../../../assets/WEBP/close.webp';
 import OpcionesMenu from './OpcionesMenu';
+import { useEffect } from 'react';
 
 function BtnMenu() {
     const [isOpen, setIsOpen] = useState(false);
     const handlerMenu = ()=>{
       setIsOpen(!isOpen)
     }
+
+    const [anchoPantalla, setAnchoPantalla] = useState(window.innerWidth)
+
+    useEffect(()=>{
+      window.addEventListener("resize",()=>{
+      
+        setAnchoPantalla(window.innerWidth)
+      })
+
+      const revisarAnchoMenu = ()=>{
+        if(anchoPantalla >= 640){
+
+          setIsOpen(false)
+        }
+       
+      }
+
+      revisarAnchoMenu()
+    },[anchoPantalla])
 
   return (
     <>
@@ -26,7 +46,7 @@ function BtnMenu() {
             <div className="cont-opciones-menu-mobile">
                 <OpcionesMenu/>
              </div>
-             
+
         </section>
     {/**Aqui la ventana cuando click menu end */}
 

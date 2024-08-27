@@ -5,7 +5,7 @@
 
 .opciones_menu {
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
     list-style: none;
     gap: 20px;
     color: var(--blanco);
@@ -35,7 +35,7 @@
     position: relative;
 }
 
-.opcion_menu:not(.active)::after {
+.opcion_menu::after {
     content: "";
     position: absolute;
     bottom: -4px; 
@@ -48,11 +48,14 @@
 }
 
 
+
+
+
 .opcion_menu:hover::after {
     width: 100%; 
 }
 
-.active::after{
+.active .opcion_menu::after{
     content: "";
     position: absolute;
     bottom: -4px; 
@@ -101,6 +104,13 @@
     display: flex;
 }
 
+
+.cont-opciones-menu-mobile {
+    display: flex;
+    justify-content: center;
+    text-align: center;}
+
+    
 @media (max-width:640px){
     .cont-opciones_menu{
         display: none;
@@ -111,5 +121,10 @@
 
     .opciones_menu{
         flex-direction: column;
+        gap: 40px;
+    }
+    .opcion_menu {
+        font-size: clamp(19px, calc(2px + 3.2vw), 25px);
+       
     }
 }
