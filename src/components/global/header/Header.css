@@ -15,7 +15,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
+
 
 .logo-header{
     width: 30px;
@@ -58,4 +61,28 @@
     height: 2px;
     background-color: var(--enfasis);
     transition: width 0.3s ease-in-out; 
+}
+
+
+.btnMenu{
+    width: calc(1px + 2vw);
+    min-width: 1.5rem;
+    cursor: pointer;
+
+}
+.btnMenu:hover{
+    transform: scale(1.05);
+}
+
+.cont-btnMenu{
+    display:none;
+}
+
+@media (max-width:640px){
+    .cont-opciones_menu{
+        display: none;
+    }
+    .cont-btnMenu{
+        display:flex;
+    }
 }

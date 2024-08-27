@@ -27,7 +27,7 @@ function App() {
 
           <Route path="/login" element={<Login />} />
 
-          <Route path="*" element={<div>Esto debe ser una pagina 404</div>} />
+          <Route path="*" element={<div>Página no encontrada -- 404</div>} />
       </Routes>
   </BrowserRouter>
   </>
