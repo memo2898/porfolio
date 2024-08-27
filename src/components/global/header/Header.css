@@ -9,6 +9,7 @@
     list-style: none;
     gap: 20px;
     color: var(--blanco);
+    padding: 0;
 }
 
 .cont-elementos-header {
@@ -78,11 +79,37 @@
     display:none;
 }
 
+
+.ocultar-menu{
+    display: none;
+}
+.area-menu-responsive {
+    background-color: var(--gris-claro);
+    opacity: 0.95;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+}
+
+
+.cont-btn-cerrar {
+    padding-top: 1.4rem;
+    padding-bottom: 1rem;
+    justify-content: end;
+    display: flex;
+}
+
 @media (max-width:640px){
     .cont-opciones_menu{
         display: none;
     }
     .cont-btnMenu{
         display:flex;
+    }
+
+    .opciones_menu{
+        flex-direction: column;
     }
 }

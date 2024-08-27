@@ -5,7 +5,7 @@ function OpcionesMenu() {
   return (
     <>
                 {/**Opciones de menu start*/}
-                <div className="cont-opciones_menu">
+                
                     <ul className="opciones_menu">
 
                         <NavLink to="/" className="opcion_menu">
@@ -25,7 +25,7 @@ function OpcionesMenu() {
                         </NavLink>
                         
                     </ul>
-            </div>
+     
             {/**Opciones de menu end */}
     </>
   )

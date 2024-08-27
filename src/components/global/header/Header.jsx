@@ -18,7 +18,9 @@ function Header() {
                     <img src={logo_ico} alt="Logo Sistema"  className='logo-header' />
                 </div>
             {/**Logo end */}
+            <div className="cont-opciones_menu">
             <OpcionesMenu/>
+            </div>
             <BtnMenu/>
 
             </div>
