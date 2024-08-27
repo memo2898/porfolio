@@ -1,7 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :root{
   --gris-claro:#3D3E42;
   --gris-ocuro:#31333B;
-  --resaltado:#8DEDED;
+  --enfasis:#8DEDED;
+  --enfasis-secundario:#5fa8a8;
   --blanco:#ffff;
 }
 
@@ -11,4 +16,21 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.margen_general {
+    margin-left: calc(5px + 3vw);
+    margin-right: calc(5px + 3vw);
+}
+
+
+h1,h2, h3, p, a, span, li{
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none; color: inherit; 
+  cursor: pointer;  
+  outline: none;  
+  border: none; 
 }

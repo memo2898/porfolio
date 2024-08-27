@@ -1,8 +1,9 @@
+import Header from "../../components/global/header/Header"
 
 
 function Portfolio() {
   return (
-    <div>Portfolio</div>
+    <Header/>
   )
 }
 

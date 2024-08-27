@@ -1,8 +1,11 @@
+import Header from "../../components/global/header/Header"
 
 
 function About() {
   return (
-    <div>About</div>
+   <>
+      <Header/>
+   </>
   )
 }
 

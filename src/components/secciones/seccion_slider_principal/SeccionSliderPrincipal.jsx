@@ -1,7 +1,9 @@
 
 function SeccionSliderPrincipal() {
   return (
-    <div>SeccionSliderPrincipal</div>
+    <section className="section_pincipal">
+        seccion principal
+    </section>
   )
 }
 

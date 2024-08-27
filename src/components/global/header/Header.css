@@ -1,0 +1,61 @@
+.header_app{
+    background-color: var(--gris-claro);
+}
+
+
+.opciones_menu {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: var(--blanco);
+}
+
+.cont-elementos-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header{
+    width: 30px;
+    height: 30px;
+}
+.opcion_menu:hover{
+    cursor: pointer;
+}
+
+.opcion_menu {
+    font-size: clamp(14px, calc(2px + 1vw), 15px);
+    font-weight: 500;
+    position: relative;
+}
+
+.opcion_menu:not(.active)::after {
+    content: "";
+    position: absolute;
+    bottom: -4px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0; 
+    height: 2px;
+    background-color: var(--enfasis-secundario);
+    transition: width 0.3s ease-in-out; 
+}
+
+
+.opcion_menu:hover::after {
+    width: 100%; 
+}
+
+.active::after{
+    content: "";
+    position: absolute;
+    bottom: -4px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+    height: 2px;
+    background-color: var(--enfasis);
+    transition: width 0.3s ease-in-out; 
+}
