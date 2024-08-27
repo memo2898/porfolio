@@ -1,3 +1,10 @@
+:root{
+  --gris-claro:#3D3E42;
+  --gris-ocuro:#31333B;
+  --resaltado:#8DEDED;
+  --blanco:#ffff;
+}
+
 body {
   margin: 0;
   padding: 0;
