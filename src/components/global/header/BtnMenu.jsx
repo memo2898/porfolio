@@ -38,7 +38,7 @@ function BtnMenu() {
     {/**Aqui la ventana cuando click menu start */}
         <section className={`area-menu-responsive ${isOpen?"":"ocultar-menu"}` }>
             <div className="cont-btn-cerrar">
-              <div className="margen_general">
+              <div className="margenes_general">
                   <img src={close} className='btnMenu' onClick={handlerMenu}/>
               </div>
             </div>

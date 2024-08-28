@@ -18,9 +18,17 @@ body {
   min-height: 100vh;
 }
 
-.margen_general {
-    margin-left: calc(5px + 3vw);
-    margin-right: calc(5px + 3vw);
+.margenes_general {
+    margin-left: calc(5px + 5vw);
+    margin-right: calc(5px + 5vw);
+}
+.margen_izq {
+    margin-left: calc(5px + 5vw);
+   
+}
+.margen_der {
+    margin-right: calc(5px + 5vw);
+   
 }
 
 
@@ -33,4 +41,13 @@ a {
   cursor: pointer;  
   outline: none;  
   border: none; 
+}
+
+
+.style-fondo-1{
+  background: var(--gris-claro);
+  min-height: 90vh;
+  background-image: url('./assets/WEBP/fondo1.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
