@@ -2,6 +2,7 @@
 
 import './SeccionSliderPrincipal.css'
 import p1 from '../../../assets/WEBP/p1.webp'
+import BtnStandard from '../../btnStandard/BtnStandard'
 
 function SeccionSliderPrincipal() {
   return (
@@ -20,7 +21,13 @@ function SeccionSliderPrincipal() {
 
 
           <div className="cont-botones-sp">
-            <span>Colocar boton de cv</span>
+            
+            <BtnStandard 
+              titulo="Download CV"
+              onClick={()=>{alert("Click me")}}
+              
+              />
+
           </div>
 
         </div>
