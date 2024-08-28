@@ -3,6 +3,7 @@
 import './SeccionSliderPrincipal.css'
 import p1 from '../../../assets/WEBP/p1.webp'
 import BtnStandard from '../../btnStandard/BtnStandard'
+import SocialMediaButtonVertical from '../../socialmediaButtons/SocialMediaButtonVertical'
 
 function SeccionSliderPrincipal() {
   return (
@@ -25,7 +26,7 @@ function SeccionSliderPrincipal() {
             <BtnStandard 
               titulo="Download CV"
               onClick={()=>{alert("Click me")}}
-              
+
               />
 
           </div>
@@ -33,12 +34,19 @@ function SeccionSliderPrincipal() {
         </div>
       {/**Lado izquierdo end */}
 
-      {/**Lado derecho start start*/}
+      {/**Lado derecho start*/}
         <div className="lado_derecho_sp">
           <div className="cont-mi-imagen">
             <img src={p1} alt="Mi foto" className='mi-imagen'/>
           </div>
         </div>
+      {/**Lado derecho end*/}
+
+      {/**Botones Redes Sociales start*/}
+          <SocialMediaButtonVertical/>
+      {/**Botones Redes Sociales end*/}
+
+      
     </section>
   )
 }

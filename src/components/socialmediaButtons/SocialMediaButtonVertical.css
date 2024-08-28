@@ -1,0 +1,31 @@
+
+.cont-botones-social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    
+}
+.boton-item-social-media{
+    width: calc(1.5rem + 0.2vw);
+    height: calc(1.5rem + 0.2vw);
+    padding: calc(0.2rem + 0.2vw);
+    border-radius: 100% 100%;
+
+    background-color: transparent;
+    border: solid var(--blanco) 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boton-item-social-media:hover{
+    transform: scale(1.02);
+}
+.icono_social_media{
+    width: 80%;
+    height: 80%;
+}
