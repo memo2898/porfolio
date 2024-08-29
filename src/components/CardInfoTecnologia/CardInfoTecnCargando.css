@@ -1,0 +1,57 @@
+.cont-cardInfo-cargando {
+    width: calc(20px + 10vw);
+    max-width: 7rem;
+    min-width: 6rem;
+    display: inline-block;
+    position: relative;
+}
+
+.cls-color-card {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+
+
+    background: linear-gradient(90deg, #adacac 25%, #bbbbbb 50%, #adacac 70%);
+    background-size: 200% 100%;
+    animation: loading 2s infinite;
+
+
+}
+
+
+.cont-text-descriptivo{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-text-superior{
+    background-color: #adacac;
+    width: 40%;
+    height: 8px;
+
+    background: linear-gradient(90deg, #adacac 25%, #bbbbbb 50%, #adacac 70%);
+    background-size: 200% 100%;
+    animation: loading 2s infinite;
+}
+.cont-text-inferior{
+    background-color: #adacac;
+    width: 70%;
+    height: 8px;
+
+    background: linear-gradient(90deg, #adacac 25%, #bbbbbb 50%, #adacac 70%);
+    background-size: 200% 100%;
+    animation: loading 2s infinite;
+}
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}

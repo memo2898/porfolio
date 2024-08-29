@@ -1,4 +1,8 @@
 
+import CardInfoTecnologia from "../../CardInfoTecnologia/CardInfoTecnologia"
+import SkeletonCardsSkills from "./SkeletonCardsSkills"
+
+
 function SeccionSkills() {
   return (
     <section className="seccionSkills">
@@ -9,7 +13,11 @@ function SeccionSkills() {
             </div>
            {/**Cards tecnologias start */}
                 <div className="cont-cards_tecnologias">
+                        
+                        <SkeletonCardsSkills/>
 
+                        
+                        <CardInfoTecnologia/>
                 </div>
            {/**Cards tecnologias end */}
         </div>
