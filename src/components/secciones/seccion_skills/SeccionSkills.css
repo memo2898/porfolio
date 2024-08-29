@@ -1,0 +1,5 @@
+.titulo-principal {
+    margin: 0;
+    color: var(--blanco);
+    font-size: clamp(24px, calc(2px + 1vw), 3.5rem);
+}

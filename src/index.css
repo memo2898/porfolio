@@ -4,7 +4,7 @@
 
 :root{
   --gris-claro:#3D3E42;
-  --gris-ocuro:#31333B;
+  --gris-oscuro:#31333B;
   --enfasis:#8DEDED;
   --enfasis-secundario:#5fa8a8;
   --blanco:#ffff;
@@ -30,6 +30,10 @@ body {
     margin-right: calc(5px + 5vw);
    
 }
+.margen_top {
+    margin-top: calc(5px + 5vw);
+   
+}
 
 
 h1,h2, h3, p, a, span, li{
@@ -37,7 +41,8 @@ h1,h2, h3, p, a, span, li{
 }
 
 a {
-  text-decoration: none; color: inherit; 
+  text-decoration: none; 
+  color: inherit; 
   cursor: pointer;  
   outline: none;  
   border: none; 
@@ -50,4 +55,23 @@ a {
   background-image: url('./assets/WEBP/fondo1.webp');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.style-fondo-2{
+  background: var(--gris-oscuro);
+  min-height: 90vh;
+  background-image: url('./assets/WEBP/fondo2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.cont-titulo-principal{
+  padding-top: calc(5px + 5vw);
+}
+.titulo-principal {
+  margin: 0;
+  color: var(--blanco);
+  font-size: clamp(27px, calc(2px + 4vw), 37px);
 }
