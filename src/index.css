@@ -76,3 +76,12 @@ a {
   color: var(--blanco);
   font-size: clamp(30px, calc(2px + 2vw), 70px);
 }
+
+.cont-btn-ver-mas{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}

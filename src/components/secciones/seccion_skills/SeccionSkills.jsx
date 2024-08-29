@@ -4,6 +4,7 @@ import SkeletonCardsSkills from "./SkeletonCardsSkills"
 import techEjemplo from "../../../assets/SVG/ejemploTech.svg"
 import techEjemplo2 from "../../../assets/SVG/ejemploTech2.svg"
 import { useEffect, useState } from "react"
+import BtnStandard from "../../btnStandard/BtnStandard"
 
 function SeccionSkills() {
     const [initial, setInitial] = useState(false);
@@ -17,7 +18,7 @@ function SeccionSkills() {
 
 
             const dataRespuesta = []
-            const cantidadDatos = 10
+            const cantidadDatos = 11
             for (let i = 0; i < cantidadDatos; i++) {
                 dataRespuesta.push(     {
                     id: i+1,
@@ -65,14 +66,32 @@ function SeccionSkills() {
                             color={skill.color}
                             tecnologia={skill.tecnologia}
                             experiencia={skill.experiencia}
-                            onClick={()=>{alert("Click en la card")}}
+                            onClick={()=>{alert("Click en la card Tecno ... abre un modal donde se de una descripcion de la tecnolgia y se muestre los proyectos donde he usado esta tecnologia")}}
                             />)
                     })
               
                     
                     
                     }
-</div>
+                </div>
+
+
+               
+
+
+            {initial && infoSkills.length>10?   
+            <div className="cont-btn-ver-mas">    
+                <BtnStandard 
+                titulo="Ver más"
+                onClick={()=>{alert("Cuando se le de click al boton se debe manejar el ver mas y ver menos tecnologias")}}
+
+                />
+            </div> 
+            :""}
+                    
+
+
+
                 </div>
            {/**Cards tecnologias end */}
         </div>
