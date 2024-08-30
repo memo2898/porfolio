@@ -36,7 +36,7 @@ function SeccionSkills() {
 
             
             setInitial(true)
-        },2000)
+        },3000)
 
 
     },[])

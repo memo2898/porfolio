@@ -1,0 +1,42 @@
+.itemCardProjectCargando {
+    width: 13rem;
+    height: 21rem;
+    background-color: var(--gris-palido);
+    cursor: pointer;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cont-img-cardProjectCargando {
+    height: 40%;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: gray;
+}
+
+.cont-texto-superior-cargando{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.linea-texto-superior{
+    width: 100%;
+    height: 8px;
+    background-color: gray;
+}
+
+.cont-botonesCargando{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.circuloBTN{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: gray;
+    border-radius: 50%;
+}

@@ -10,7 +10,7 @@
 
 
 .itemCardProject:hover{
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
 }
 .cont-img-cardProject{
     height: 40%;

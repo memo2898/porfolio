@@ -102,3 +102,29 @@ a {
   text-overflow: ellipsis;
   -webkit-line-clamp: 4; /* Número de líneas a mostrar */
 }
+
+
+
+.loadingSkeleton {
+  background-color: #adacac;
+  background: linear-gradient(90deg, #adacac 25%, var(--enfasis) 50%, #adacac 70%);
+  background-size: 200% 100%;
+  animation: loadingAnimation 5s infinite linear;
+}
+.loadingSkeleton2 {
+  background-color: #adacac;
+  background: linear-gradient(90deg, #adacac 25%, var(--enfasis) 50%, #adacac 70%);
+  background-size: 200% 100%;
+  animation: loadingAnimation 8s infinite linear;
+}
+
+@keyframes loadingAnimation {
+  0% {
+  
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
