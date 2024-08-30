@@ -3,6 +3,7 @@
 
 
 :root{
+  --gris-palido:#4E4F52;
   --gris-claro:#3D3E42;
   --gris-oscuro:#31333B;
   --enfasis:#8DEDED;
@@ -19,6 +20,7 @@ body {
 }
 
 .margenes_general {
+  /* margin-left: clamp(10px, calc(5px + 5vw), 50px);*/
     margin-left: calc(5px + 5vw);
     margin-right: calc(5px + 5vw);
 }
@@ -83,5 +85,20 @@ a {
   align-items: center;
   justify-content: center;
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
+}
+
+.limited-text-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3; /* Número de líneas a mostrar */
+}
+.limited-text-4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4; /* Número de líneas a mostrar */
 }

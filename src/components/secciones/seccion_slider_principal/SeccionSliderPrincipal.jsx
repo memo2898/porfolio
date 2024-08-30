@@ -13,7 +13,7 @@ function SeccionSliderPrincipal() {
 
           <div className="cont_mi_nombre">
             <span className="mayus_normal">i' m</span>
-            <span className="mi_nombre">Manuel Maldonado</span>
+            <span className="mi_nombre">Manuel E. Maldonado Ortiz</span>
           </div>
 
           <div className="presentacion_personal">
@@ -37,7 +37,7 @@ function SeccionSliderPrincipal() {
       {/**Lado derecho start*/}
         <div className="lado_derecho_sp">
           <div className="cont-mi-imagen">
-            <img src={p1} alt="Mi foto" className='mi-imagen'/>
+            <img src={p1} alt="Mi foto" className='mi-imagen' loading="lazy"/>
           </div>
         </div>
       {/**Lado derecho end*/}

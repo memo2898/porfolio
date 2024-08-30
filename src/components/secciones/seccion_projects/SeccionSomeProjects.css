@@ -1,0 +1,8 @@
+.cont-cards-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}

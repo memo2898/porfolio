@@ -1,7 +1,7 @@
 .cont-cardInfo-cargando {
     width: calc(20px + 10vw);
     max-width: 7rem;
-    min-width: 6rem;
+    min-width: 5rem;
     display: inline-block;
     position: relative;
 }

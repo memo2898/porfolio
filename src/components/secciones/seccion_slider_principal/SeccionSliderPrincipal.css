@@ -58,3 +58,13 @@
     line-height: 1.5;
     
 }
+
+
+@media (max-width: 600px){
+    .mi-imagen {
+        width: calc(30px + 136vw);
+        /* min-width: 33rem; */
+        margin-right: -144%;
+        user-select: none;
+    }
+}
