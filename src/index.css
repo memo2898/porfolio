@@ -66,6 +66,10 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.style-fondo-3{
+  background: var(--gris-claro);
+  min-height: 90vh;
+}
 
 
 

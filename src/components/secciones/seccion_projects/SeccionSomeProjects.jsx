@@ -64,6 +64,46 @@ useEffect(()=>{
                         cardClick={clickCard}
                         />
                     {/**Item end */}
+                    {/**Item start */}
+                        <CardItemProject
+                        imagen={fotoEjemplo}
+                        titulo={"Sistema de gestión de intercambios asdasdasdasdasd asdasdasdasdasdas  asdasdasdasdasdasdas"}
+                        descripcion={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex iure suscipit quos. Similique explicabo neque laborum repudiandae! Officiis, quam. In a iusto dolorem fuga iste labore non enim, eum praesentium"}
+                        gitLink={"i"}
+                        previewLink={"i"}
+                        cardClick={clickCard}
+                        />
+                    {/**Item end */}
+                    {/**Item start */}
+                        <CardItemProject
+                        imagen={fotoEjemplo}
+                        titulo={"Sistema de gestión de intercambios asdasdasdasdasd asdasdasdasdasdas  asdasdasdasdasdasdas"}
+                        descripcion={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex iure suscipit quos. Similique explicabo neque laborum repudiandae! Officiis, quam. In a iusto dolorem fuga iste labore non enim, eum praesentium"}
+                        gitLink={"i"}
+                        previewLink={"i"}
+                        cardClick={clickCard}
+                        />
+                    {/**Item end */}
+                    {/**Item start */}
+                        <CardItemProject
+                        imagen={fotoEjemplo}
+                        titulo={"Sistema de gestión de intercambios asdasdasdasdasd asdasdasdasdasdas  asdasdasdasdasdasdas"}
+                        descripcion={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex iure suscipit quos. Similique explicabo neque laborum repudiandae! Officiis, quam. In a iusto dolorem fuga iste labore non enim, eum praesentium"}
+                        gitLink={"i"}
+                        previewLink={"i"}
+                        cardClick={clickCard}
+                        />
+                    {/**Item end */}
+                    {/**Item start */}
+                        <CardItemProject
+                        imagen={fotoEjemplo}
+                        titulo={"Sistema de gestión de intercambios asdasdasdasdasd asdasdasdasdasdas  asdasdasdasdasdasdas"}
+                        descripcion={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex iure suscipit quos. Similique explicabo neque laborum repudiandae! Officiis, quam. In a iusto dolorem fuga iste labore non enim, eum praesentium"}
+                        gitLink={"i"}
+                        previewLink={"i"}
+                        cardClick={clickCard}
+                        />
+                    {/**Item end */}
               </>
             
             }
