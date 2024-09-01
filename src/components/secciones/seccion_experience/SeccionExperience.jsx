@@ -15,7 +15,7 @@ function SeccionExperience() {
 
               <div className="cont-bloques-experiencias">
               <BloqueExperiencia 
-                year={2005}
+                year={"2005 - 2017"}
                 posicion={"Ingeniero de Software"}
                 institucion={"Banco Nacional"}
                 pais={"Rep Dominicana"}
@@ -23,7 +23,7 @@ function SeccionExperience() {
               />
 
 <BloqueExperiencia 
-  year={2010}
+  year={"2010 - Now"}
   posicion={"Analista de Sistemas"}
   institucion={"Ministerio de Educación"}
   pais={"Rep Dominicana"}
@@ -31,7 +31,7 @@ function SeccionExperience() {
 />
 
 <BloqueExperiencia 
-  year={2015}
+  year={"2015 - Ahora"}
   posicion={"Líder de Proyecto"}
   institucion={"Empresa de Tecnología Global"}
   pais={"Rep Dominicana"}

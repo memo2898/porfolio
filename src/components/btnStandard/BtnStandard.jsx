@@ -2,12 +2,23 @@
 
 import './BtnStandard.css'
 
-function BtnStandard({titulo,...props}) {
+function BtnStandard({titulo,tipo,...props}) {
+  
+  let claseBtn = "btnStandard-p";
+ 
+  if(tipo=="normal"){
+    claseBtn="btnStandard-p"
+  }
+  if(tipo=="small"){
+    claseBtn="btnStandard-p-small"
+  }
+
+
   return (
 
     <>
     <button 
-    className='btnStandard-p'
+    className={claseBtn}
     type="button" 
     {...props} >{titulo}</button>
     </>

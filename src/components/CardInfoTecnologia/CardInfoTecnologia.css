@@ -12,10 +12,10 @@
 
 
 .card_info_tecnologia{
-    width: calc(20px + 10vw);
+    width: calc(20px + 6vw);
 
-    max-width: 7rem;
-    min-width: 5rem;
+    max-width: 6rem;
+    min-width: 4rem;
     display: inline-block;
     position: relative;
 

@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import BtnStandard from '../btnStandard/BtnStandard'
 import './BloqueExperiencia.css'
 
 
@@ -58,6 +59,13 @@ function BloqueExperiencia({year, posicion,institucion,pais,descripcion}) {
             <div className='cont-texto-descripcion-B2'>
                 <p className='texto-descripcion-B2'>{descripcion}</p>
             </div>
+            <div className='cont-btn-mas'>
+                <BtnStandard
+                titulo={"Show more"}
+                tipo={"small"}
+                />
+            </div>
+            
         </div>
         {/** //? Columna Principal 2 end*/}
 

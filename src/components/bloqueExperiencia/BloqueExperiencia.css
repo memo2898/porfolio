@@ -31,7 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 4.3rem;
+    width: 5.3rem;
     height: 2rem;
     background-color: var(--gris-palido2);
     color: black;
@@ -61,7 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 4.3rem;
+    width: 5.3rem;
     height: 1.8rem;
     background-color: var(--gris-palido2);
     color: black;
@@ -83,6 +83,7 @@
 }
 
 .item-year{
+    font-size: clamp(10px, calc(2px + 2vw), 12px);
     color: var(--blanco);
 }
 
@@ -112,7 +113,7 @@
     margin-top: 1rem;
     margin-bottom: 0;
     color: var(--blanco);
-    font-size: clamp(14px, calc(2px + 2vw), 16px);
+    font-size: clamp(14px, calc(2px + 2vw), 15px);
     font-weight: 600;
   
 }
@@ -121,7 +122,7 @@
     margin-top: 1rem;
     margin-bottom: 0;
     color: var(--blanco);
-    font-size: clamp(16px, calc(2px + 2vw), 17px);
+    font-size: clamp(16px, calc(2px + 2vw), 16px);
     font-weight: 400;
 
     word-break: break-word;
@@ -149,6 +150,11 @@
     height: 100%;
 
 }
+
+.cont-btn-mas{
+    margin-top: 2rem;
+}
+
 @media(max-width:615px){
 
     .bloqueExperiencia{
@@ -168,6 +174,8 @@
 
     .cont-linea-BE {
         margin-top: 1rem;
-        margin-left: -4.2rem;
+        margin-left: -5.2rem;
     }
 }
+
+
