@@ -1,0 +1,8 @@
+.cont-bloques-experiencias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
