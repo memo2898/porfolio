@@ -1,10 +1,18 @@
 
+import { useEffect, useState } from 'react';
 import BloqueExperiencia from '../../bloqueExperiencia/BloqueExperiencia';
 import SkeletonItemsExperience from '../../SkeletonItemsExperience/SkeletonItemsExperience';
 import './SeccionExperience.css';
 
 function SeccionExperience() {
+const [initial, setInitial] = useState(false)
 
+useEffect(()=>{
+  setTimeout(() => {
+    setInitial(true)
+  }, 4000);
+
+},[])
     
   return (
     <div className="style-fondo-3">
@@ -15,7 +23,10 @@ function SeccionExperience() {
 
 
               <div className="cont-bloques-experiencias">
+                {!initial?
               <SkeletonItemsExperience/>
+              :
+              <>
               <BloqueExperiencia 
                 year={"2005 - 2017"}
                 posicion={"Ingeniero de Software"}
@@ -55,8 +66,8 @@ function SeccionExperience() {
                 pais={"Rep Dominicana"}
                 descripcion={`Diseñé arquitecturas de software complejas que soportan las necesidades estratégicas de la empresa. Colaboré con equipos de desarrollo para implementar soluciones escalables y seguras. Lideré la investigación y adopción de nuevas tecnologías para asegurar que las soluciones desarrolladas estuvieran a la vanguardia de la innovación.`}
               />
-
-               
+          </>
+            }
               </div>
         </div>
 
