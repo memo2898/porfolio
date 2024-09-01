@@ -155,6 +155,36 @@
     margin-top: 2rem;
 }
 
+
+
+.titulo-principal2-B2-skeleton{
+    width: 10rem;
+    height: 0.8rem;
+}
+.texto-inst-pais-B2-skeleton{
+    width: 7rem;
+    height: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+
+.texto-descripcion-B2-skeleton{
+    width: 85%;
+    height: 2rem;
+}
+.forma-bton {
+    color: var(--blanco);
+    background-color: transparent;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1rem;
+
+    border-radius: 0.8rem;
+  
+    width: 4rem;
+    height: 0.5rem;
+}
+
 @media(max-width:615px){
 
     .bloqueExperiencia{
